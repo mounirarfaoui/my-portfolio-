@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mounir Arfaoui — AI Content Creator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Noto+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="logo" href="#hero">MA<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about"   data-i18n="nav_about">About</a></li>
+        <li><a href="#work"    data-i18n="nav_work">Work</a></li>
+        <li><a href="#services" data-i18n="nav_services">Services</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="ar">AR</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about"    data-i18n="nav_about">About</a>
+      <a href="#work"     data-i18n="nav_work">Work</a>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#contact"  data-i18n="nav_contact">Contact</a>
+      <div class="lang-switcher mobile-lang">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="ar">AR</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-blue"></div>
+      <div class="orb orb-red"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-i18n="hero_eyebrow">AI Content Creator</p>
+      <h1 class="hero-name">Mounir<br /><span class="name-accent">Arfaoui</span></h1>
+      <p class="hero-sub" data-i18n="hero_sub">
+        I craft high-converting social media content — reels, ads, posts &amp; UGC — powered by AI.
+      </p>
+      <div class="hero-tags">
+        <span class="tag" data-i18n="tag_reels">Reels</span>
+        <span class="tag" data-i18n="tag_ads">Ads</span>
+        <span class="tag" data-i18n="tag_ugc">UGC</span>
+        <span class="tag" data-i18n="tag_posts">Posts</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#work"    class="btn btn-primary" data-i18n="cta_work">See My Work</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="cta_contact">Work With Me</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-label" data-i18n="about_label">About Me</p>
+          <h2 data-i18n="about_title">Turning AI into<br /><span class="gradient-text">Results</span></h2>
+          <p data-i18n="about_body">
+            I'm Mounir Arfaoui, a professional AI content creator specialising in social media that stops the scroll. I combine cutting-edge AI tools with creative direction to produce reels, ads, posts, and UGC that convert — faster and better than traditional production.
+          </p>
+          <div class="stats-row">
+            <div class="stat">
+              <span class="stat-num">100<span class="stat-plus">+</span></span>
+              <span class="stat-label" data-i18n="stat_projects">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">50<span class="stat-plus">+</span></span>
+              <span class="stat-label" data-i18n="stat_clients">Clients</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3<span class="stat-plus">+</span></span>
+              <span class="stat-label" data-i18n="stat_years">Years in AI</span>
+            </div>
+          </div>
+        </div>
+        <div class="tools-grid">
+          <p class="section-label" data-i18n="tools_label">Tools &amp; AI Stack</p>
+          <div class="tools-list">
+            <div class="tool-chip">Midjourney</div>
+            <div class="tool-chip">Runway</div>
+            <div class="tool-chip">Sora</div>
+            <div class="tool-chip">ElevenLabs</div>
+            <div class="tool-chip">CapCut AI</div>
+            <div class="tool-chip">ChatGPT</div>
+            <div class="tool-chip">Kling AI</div>
+            <div class="tool-chip">Seedance 2.0</div>
+            <div class="tool-chip">Nano Banana Pro</div>
+            <div class="tool-chip">Pika</div>
+            <div class="tool-chip">Adobe Firefly</div>
+            <div class="tool-chip">HeyGen</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WORK ─── -->
+  <section id="work">
+    <div class="container">
+      <p class="section-label center" data-i18n="work_label">Portfolio</p>
+      <h2 class="center" data-i18n="work_title">My <span class="gradient-text">Work</span></h2>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all"   data-i18n="filter_all">All</button>
+        <button class="filter-btn" data-filter="reel"  data-i18n="filter_reels">Reels</button>
+        <button class="filter-btn" data-filter="ad"    data-i18n="filter_ads">Ads</button>
+        <button class="filter-btn" data-filter="ugc"   data-i18n="filter_ugc">UGC</button>
+        <button class="filter-btn" data-filter="post"  data-i18n="filter_posts">Posts</button>
+      </div>
+
+      <div class="work-grid" id="workGrid">
+
+        <!-- REEL 1 -->
+        <div class="work-card" data-type="reel">
+          <div class="card-media video-slot">
+            <div class="placeholder-icon">▶</div>
+            <div class="card-type-badge" data-i18n="badge_reel">Reel</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_reel1_title">Product Reel #1</h3>
+            <p data-i18n="project_reel1_desc">AI-generated brand reel — drop your video here</p>
+          </div>
+        </div>
+
+        <!-- AD 1 -->
+        <div class="work-card" data-type="ad">
+          <div class="card-media image-slot">
+            <div class="placeholder-icon">🖼</div>
+            <div class="card-type-badge" data-i18n="badge_ad">Ad</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_ad1_title">Ad Campaign #1</h3>
+            <p data-i18n="project_ad1_desc">AI-crafted visual ad — drop your image here</p>
+          </div>
+        </div>
+
+        <!-- UGC 1 -->
+        <div class="work-card" data-type="ugc">
+          <div class="card-media video-slot">
+            <div class="placeholder-icon">▶</div>
+            <div class="card-type-badge" data-i18n="badge_ugc">UGC</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_ugc1_title">UGC Video #1</h3>
+            <p data-i18n="project_ugc1_desc">User-generated style content — drop your video here</p>
+          </div>
+        </div>
+
+        <!-- POST 1 -->
+        <div class="work-card" data-type="post">
+          <div class="card-media image-slot">
+            <div class="placeholder-icon">🖼</div>
+            <div class="card-type-badge" data-i18n="badge_post">Post</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_post1_title">Social Post #1</h3>
+            <p data-i18n="project_post1_desc">AI-designed post — drop your image here</p>
+          </div>
+        </div>
+
+        <!-- REEL 2 -->
+        <div class="work-card" data-type="reel">
+          <div class="card-media video-slot">
+            <div class="placeholder-icon">▶</div>
+            <div class="card-type-badge" data-i18n="badge_reel">Reel</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_reel2_title">Product Reel #2</h3>
+            <p data-i18n="project_reel2_desc">AI-generated brand reel — drop your video here</p>
+          </div>
+        </div>
+
+        <!-- AD 2 -->
+        <div class="work-card" data-type="ad">
+          <div class="card-media image-slot">
+            <div class="placeholder-icon">🖼</div>
+            <div class="card-type-badge" data-i18n="badge_ad">Ad</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_ad2_title">Ad Campaign #2</h3>
+            <p data-i18n="project_ad2_desc">AI-crafted visual ad — drop your image here</p>
+          </div>
+        </div>
+
+        <!-- UGC 2 -->
+        <div class="work-card" data-type="ugc">
+          <div class="card-media video-slot">
+            <div class="placeholder-icon">▶</div>
+            <div class="card-type-badge" data-i18n="badge_ugc">UGC</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_ugc2_title">UGC Video #2</h3>
+            <p data-i18n="project_ugc2_desc">User-generated style content — drop your video here</p>
+          </div>
+        </div>
+
+        <!-- POST 2 -->
+        <div class="work-card" data-type="post">
+          <div class="card-media image-slot">
+            <div class="placeholder-icon">🖼</div>
+            <div class="card-type-badge" data-i18n="badge_post">Post</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_post2_title">Social Post #2</h3>
+            <p data-i18n="project_post2_desc">AI-designed post — drop your image here</p>
+          </div>
+        </div>
+
+        <!-- REEL 3 -->
+        <div class="work-card" data-type="reel">
+          <div class="card-media video-slot">
+            <div class="placeholder-icon">▶</div>
+            <div class="card-type-badge" data-i18n="badge_reel">Reel</div>
+          </div>
+          <div class="card-info">
+            <h3 data-i18n="project_reel3_title">Brand Reel #3</h3>
+            <p data-i18n="project_reel3_desc">AI-generated brand reel — drop your video here</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ─── -->
+  <section id="services">
+    <div class="container">
+      <p class="section-label center" data-i18n="services_label">What I Offer</p>
+      <h2 class="center" data-i18n="services_title">My <span class="gradient-text">Services</span></h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">🎬</div>
+          <h3 data-i18n="svc_reel_title">AI Reels</h3>
+          <p data-i18n="svc_reel_desc">Short-form vertical videos that hook, engage, and convert — built with the latest AI video tools.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📢</div>
+          <h3 data-i18n="svc_ads_title">AI Ads</h3>
+          <p data-i18n="svc_ads_desc">Scroll-stopping ad creatives for Instagram, TikTok, Facebook and YouTube — designed to drive results.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎤</div>
+          <h3 data-i18n="svc_ugc_title">UGC Content</h3>
+          <p data-i18n="svc_ugc_desc">Authentic user-generated style videos powered by AI avatars and voiceovers — no studio needed.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🖼️</div>
+          <h3 data-i18n="svc_posts_title">AI Posts</h3>
+          <p data-i18n="svc_posts_desc">Visually consistent social media graphics and carousel posts generated and designed with AI.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <p class="section-label center" data-i18n="contact_label">Get In Touch</p>
+        <h2 class="center" data-i18n="contact_title">Ready to <span class="gradient-text">collaborate?</span></h2>
+        <p class="contact-sub center" data-i18n="contact_sub">
+          Tell me about your project and I'll get back to you within 24 hours.
+        </p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="form_name">Your Name</label>
+              <input type="text" placeholder="John Doe" data-i18n-placeholder="form_name_ph" required />
+            </div>
+            <div class="form-group">
+              <label data-i18n="form_email">Email</label>
+              <input type="email" placeholder="john@example.com" data-i18n-placeholder="form_email_ph" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-i18n="form_service">Service</label>
+            <select>
+              <option value="" data-i18n="form_service_ph">Choose a service...</option>
+              <option value="reel"  data-i18n="tag_reels">Reels</option>
+              <option value="ad"    data-i18n="tag_ads">Ads</option>
+              <option value="ugc"   data-i18n="tag_ugc">UGC</option>
+              <option value="post"  data-i18n="tag_posts">Posts</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label data-i18n="form_message">Message</label>
+            <textarea rows="5" placeholder="Tell me about your project..." data-i18n-placeholder="form_message_ph" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width" data-i18n="form_send">Send Message</button>
+        </form>
+        <div class="contact-links">
+          <a href="mailto:contact@tadussi.com" class="contact-link">✉ contact@tadussi.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="logo">MA<span class="dot">.</span></span>
+      <p data-i18n="footer_copy">© 2026 Mounir Arfaoui. All rights reserved.</p>
+      <p class="footer-tagline" data-i18n="footer_tagline">Built with AI. Powered by creativity.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
