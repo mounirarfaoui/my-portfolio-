@@ -242,7 +242,7 @@ filterBtns.forEach(btn => {
 
 /* ─── SCROLL FADE IN ─── */
 const fadeEls = document.querySelectorAll(
-  ".work-card, .service-card, .about-grid, .stat, .tool-chip"
+  ".service-card, .about-grid, .stat, .tool-chip"
 );
 
 fadeEls.forEach(el => el.classList.add("fade-in"));
