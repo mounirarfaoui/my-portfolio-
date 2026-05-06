@@ -4,7 +4,7 @@
 :root {
   --blue:     #2563eb;
   --blue-lt:  #3b82f6;
-  --red:      #ef1744;
+  --red:      #df163e;
   --red-lt:   #ff3d6b;
   --bg:       #07070f;
   --bg2:      #0e0e1a;
@@ -462,15 +462,17 @@ h2 {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #000;
 }
 
+.card-media iframe,
 .card-media video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  border: 0;
   display: block;
 }
+
+.card-media iframe { background: #000; }
 
 .video-slot {
   background: linear-gradient(135deg, rgba(37,99,235,.12), rgba(239,23,68,.08));
