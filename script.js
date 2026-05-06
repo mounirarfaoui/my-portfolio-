@@ -233,6 +233,7 @@ filterBtns.forEach(btn => {
     workCards.forEach(card => {
       const match = filter === "all" || card.dataset.type === filter;
       card.classList.toggle("hidden", !match);
+      if (match) card.classList.add("visible");
     });
 
     queueMicrotask(playVisibleAdVideos);
